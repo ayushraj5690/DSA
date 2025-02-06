@@ -20,6 +20,17 @@ public class Main{
       }
       size++;
     }
+    public int size(){
+      return size;
+    }
+    public void display(){
+      Node temp;
+      while(temp!=null){
+        System.out.print(temp.data+" ");
+        temp=temp.next;
+      }
+      System.out.println();
+    }
   }
     public static void testList(LinkedList list){}
     public static void main(String args[])throws Exception{}
